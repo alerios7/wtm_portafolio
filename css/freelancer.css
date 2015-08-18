@@ -223,6 +223,7 @@ section.success a.active {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+    border-radius: 10px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
@@ -455,4 +456,8 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+#port-img {
+  border-radius: 10px;
 }
